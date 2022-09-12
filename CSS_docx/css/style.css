@@ -114,14 +114,21 @@ aside{
 
 
 /*EXO9*/
-#exo9 img{
+
+
+#bg{
+    padding: 2rem;
     display: none;
 }
 
-#exo9 a:link img{
-    display: inline;
+#exo9 a:hover #bg{
+    display: block;
+    background: url('../img/sunrise.jfif') no-repeat;
+    background-size: 5%;
 }
 
-#exo9 img:hover{
-    scale: 1.5;
+#bg:hover{
+    scale: 2;
 }
+
+/*EXO 10*/
