@@ -1,0 +1,54 @@
+ul:nth-of-type(1) li{
+    list-style: url('../img/puce.png');
+}
+
+ul:nth-of-type(2){
+    list-style: none;
+}
+
+ul:nth-of-type(2) li{
+    background: url('../img/globe.jpeg') no-repeat;
+    padding: 1rem 0 5rem 8rem;
+    
+}
+
+#bloc{
+    background: yellow;
+}
+
+h1{
+    color: red;
+}
+h2{
+    color: pink;
+}
+
+#bloc b:not(p b){
+    color: green;
+}
+
+#bloc p{
+    color: blue;
+    margin: 0;
+}
+
+input{
+    background: green;
+}
+
+.p2 > p{
+    color: rgba(0, 0, 0, 0.24);
+}
+
+a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+dt:not(.la_classe){
+    background-color: pink;
+}
+dd:not(#mon_id){
+    background-color: green;
+}
+

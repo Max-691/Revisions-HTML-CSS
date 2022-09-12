@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="test-balises">
+        <p>Test<strong>strong</strong></p>
+        <p>Test<em>em</em></p>
+        <p>Test <cite>citation</cite></p>
+        <p>Test<dfn> balise dfn</dfn></p>
+        <p>Test<var> balise var</var></p>
+        <p>Test<code> code balise</code></p>
+        <p>Test <ins>balise ins</ins></p>
+        <p>Test<del> balise del</del></p>
+        <p>Test <address>balise adresse</address></p>
+        <!--<code><script>for(i = 0; i < 10; i++){console.log(i);</script></code>-->
+        <p>Test <q>balise q</q></p>
+        <p>Test <blockquote>balise blockquote, exmple de citation longue</blockquote></p>
+</section>
+<section id="map">
+    <img src="map/cubes.gif" alt="cubes" usemap="#cubesmap">
+    <map name="cubesmap">
+        <area shape="rect" coords="35, 9, 68, 43" href="map/a.htm" alt="page a">
+        <area shape="rect" coords="16, 44, 47, 77" href="map/b.htm" alt="page b">
+        <area shape="rect" coords="61, 45, 93, 76" href="map/c.htm" alt="page c">
+        <area shape="rect" coords="7, 82, 37, 116" href="map/d.htm" alt="page d">
+        <area shape="rect" coords="45, 83, 79, 117" href="map/e.htm" alt="page e">
+        <area shape="rect" coords="89, 82, 125, 111" href="map/f.htm" alt="page f">
+    </map>
+</section>
+
+<section id="video">
+    <video width="320" height="240" controls>
+        <source src="video/movie.mp4" type="video/mp4"></source>
+        <source src="video/movie.ogv" type="video/ogv"></source>
+        <source src="video/movie.webm" type="video/webm"></source>
+        <!--<object data="movie.mp4" width="320" height="240">
+            <embed src="movie.swf" width="320" height="240">
+        </object>-->
+    </video>
+</section>
+
+<section id="canvas">
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;" >
+        Your browser does not support the HTML5 canvas tag.
+        </canvas>
+        <script>
+            var c=document.getElementById("myCanvas");
+            var ctx=c.getContext("2d");
+            ctx.beginPath();
+            ctx.arc(95,50,40,0,2*Math.PI);
+            ctx.stroke();
+        </script>
+</section>
+
+</body>
+</html>

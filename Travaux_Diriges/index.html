@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travaux Dirigés</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <article>
+    <h1>Tokyo, ville la plus chère du monde, Asuncion la moins chère, Paris 17e</h1>
+    <p>PARIS (AFP) - Tokyo est la ville la plus chère du monde, suivie de Londres tandis que Paris arrive à la 17e place et Asuncion arrive à la dernière place du classement, selon une enquête réalisée par le cabinet de conseil <span class="company">Mercer HRC.</span>
+    La capitale <span class="continent">japonaise</span> occupait déjà la première place du classement l'année dernière, en revanche lacapitale <span class="continent">anglaise</span> est remontée de la cinquième à la deuxième place.
+    C'est la <span class="continent">russe</span> Moscou qui monte sur la troisième marche du podium, suivie d'une autre ville <span class="continent">japonaise</span> Osaka et de Hong-Kong en cinquième position.
+    </p>
+
+    <h2>Paragraphe n°2</h2>
+    <p>New York, la ville la plus onéreuse <span class="continent">d'Amérique du Nord</span>, s'affiche à la 12e place du classement. Et c'est au sud du continent <span class="continent">américain</span>, à Asuncion au Paraguay que la vie est la moins chère du monde, selon cette étude.
+    </p>
+
+    <h3>Paragraphe n°3</h3>
+    <p>"Les importantes modifications dans le classement sur le coût de la vie sont dues aux fluctuations monétaires, notamment à celles du dollar et de l'euro", relève l'enquête. S'agissant de Paris, l'étude note que "le logement reste très difficile à trouver surtout lorsqu'il s'agit d'habitations meublées".
+    </p>
+
+    <h4>Paragraphe n°4</h4>
+    <p>Quatre des cinq villes les moins chères <span class="continent">d'Europe</span> font partie des nouveaux entrants de <span class="continent">l'Union européenne:</span> Ljubljana (Slovénie), Vilnius (Lituanie), Limassol (Chypre) et Bucarest (Roumanie).
+    </p>
+
+    <h5>Paragraphe n°5</h5>
+    <p>Parmi les cinquante villes les plus chères, près de la moitié (24) sont <span class="continent">européennes</span> Dans cette zone géographique, Londres, la plus chère en raison "du logement et du transport", est suivie de Copenhague (Danemark) et de Milan (Italie).
+    </p>
+
+   <h6>Paragraphe n°6</h6>
+    <p>En <span class="continent">Amérique Latine</span>, c'est la capitale du Pérou, Lima, qui se situe à la première place sur le continent.
+    </p>
+
+    <h6>Paragraphe n°7</h6>
+    <p>L'étude, qui porte sur 144 villes, se fonde sur des critères relatifs au logement, à la nourriture, à l'habillement et les appareils ménagers ou encore aux transports et aux loisirs.
+    </p>
+</article>
+    <style>
+        article{
+            border-bottom: 1px solid black;
+        }
+        article p:nth-of-type(1){
+            text-align: justify;
+        }
+        article p:nth-of-type(2){
+            text-align: right;
+        }
+        article p:nth-of-type(3){
+            text-align: left;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .continent{
+            font-family: 'Courier New', Courier, monospace;
+            color: green;
+        }
+        .company{
+            font-style: italic;
+            color: brown;
+        }
+    </style>
+
+    <p><a href="https://www.w3.org">Lien externe</a></p>
+<!--
+    <ul>
+        <li>
+             <ol>
+        <li>Liste numérotée</li>
+    </ol>
+    <ul>
+        <li>Dernier enfant</li>
+    </ul>
+        </li>
+    </ul>
+-->
+
+    <ul>
+        <li><a href="/dossier_1/fic1.html">Fic 1</a></li>
+        <li><a href="/dossier_2/fic2.html">Fic 2</a></li>
+        <li><a href="/dossier_1/dossier_3/fic3.html">Fic 3</a></li>
+        <li><a href="/dossier_2/dossier_4/fic4.html">Fic 4</a></li>
+    </ul>
+
+<section id="table_1">
+    <table>
+        <thead>
+            <tr>
+                <th>Titre 1</th>
+                <th>Titre 2</th>
+                <th>Titre 3</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Cellule simple</td>
+                <td>Cellule simple</td>
+                <td>Cellule simple</td>
+            </tr>
+
+            <tr>
+              <td colspan="2">Deux colonnes assemblées</td>
+              <td>Cellule simple</td>
+            </tr>
+
+            <tr>
+                <td>Cellule simple</td>
+                <td>Cellule simple</td>
+                <td rowspan="2">Deux lignes assemblées</td>
+            </tr>
+
+            <tr>
+                <td>Cellule simple</td>
+                <td>Cellule simple</td>
+            </tr>
+        
+            <tr>
+                <td>Cellule simple</td>
+                <td colspan="2" rowspan="2">Deux lignes et deux colonnes</td>
+            </tr>
+            
+            <tr>
+                <td>Cellule simple</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="table_2">
+    <table>
+        <thead>
+            <tr>
+                <th>Colonne 1</th>
+                <th>Colonne 2</th>
+                <th>Colonne 3</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td colspan="2">double</td>
+                <td>simple</td>
+            </tr>
+
+            <tr>
+                <td>simple</td>
+                <td rowspan="3">triple</td>
+                <td>simple</td>
+            </tr>
+
+            <tr>
+                <td>simple</td>
+                <td rowspan="3">triple</td>
+            </tr>
+
+            <tr>
+                <td>simple</td>
+            </tr>
+
+            <tr>
+                <td>simple</td>
+                <td>simple</td>
+            </tr>
+
+            <tr>
+                <td colspan="2" rowspan="2">double</td>
+                <td>simple</td>
+            </tr>
+
+            <tr>
+                <td>simple</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="inputs">
+    <form><!--démo fieldset style-->
+        <fieldset>
+        <legend>Personalia:</legend>
+            Name: <input type="text"><br>
+            Email: <input type="text"><br>
+            Date of birth: <input type="text">
+            <input type="text" accesskey="c">
+        </fieldset>
+        </form>
+        <label for="choix_bieres">Indiquez votre bière préférée :</label> <input list="bieres"
+        type="text" id="choix_bieres">
+        <datalist id="bieres"> <option value="Meteor">
+        <option value="Pils">
+        <option value="Kronenbourg">
+        <option value="Grimbergen">
+        </datalist>
+        <input type="range" name="points" min="1" max="10">
+        <input type="email" name="usremail">
+        <input type="tel" name="usrtel">
+        <input type="search" name="googlesearch">
+        <input type="date" name="bday" required> 
+        <input type="number" min="1" max="30"/>
+        <input type="text" pattern="[a-z0-9]+@[a-z0-9]+\.[a-z]{2,10}"/>
+        <input type="color"/>
+        <progress value="22" max="100">
+</section>
+
+
+<section id="exercice">
+    <form>
+        <p>Champ de saisie avec lt;</p>
+        <label for="text"></label>
+        <input type="text" value="http://" id="text">
+
+        <p>Cases à cocher</p>
+        <label for="check1">Case 1</label>
+        <input type="checkbox" id="check1">
+
+        <label for="check2">case 2 pré-cochée</label>
+        <input checked type="checkbox" id="check2">
+
+        <label for="check3">case 3</label>
+        <input type="checkbox" id="check3">
+    
+        <p>Boutons radio</p>
+        <label for="radio1">salé</label>
+        <input type="radio" id="radio1">
+        <label for="radio2">sucré</label>
+        <input type="radio" id="radio2">
+        <label for="radio3">sans saveur</label>
+        <input checked type="radio" id="radio3">
+
+        <p>Envoyer un fichier</p>
+        <label for="file"></label>
+        <input type="file" id="file">
+
+        <p>Champ de saisie de mot de passe</p>
+        <label for="pass"></label>
+        <input type="password" id="pass" value="dfdfsffdfsdf">
+
+        <p>Soumettre un formulaire</p>
+
+        <p>Champ de saisie long (balise<code> textarea</code>)</p>
+        <label for="textarea"></label>
+        <textarea id="textarea">C'est l'historie d'un fou qui repeignait son plafond. Un autre fou arrive et lui dit "accroche toi à ton pinceau j'enlève l'échelle"</textarea>
+
+        <p>Balise <code>select</code></p>
+        <p>Format par défaut</p>
+        <select>
+            <option value="beaufort">beaufort</option>
+            <option value="dog">dog</option>
+            <option value="dog">dog</option>
+            <option value="dog">dog</option>
+        </select>
+
+            <p>On raffine un peu...</p>
+           
+            <select multiple>
+                <option value="saint nectaire">saint nectaire</option>
+                <option selected value="camenbert">camebert beaufort</option>
+                <option selected value="beaufort">beaufort</option>
+                <option value="roblochon">roblochpn</option>
+            </select>
+
+            <p>Un exmple contenant champs</p>
+
+            <label for="mail">Votre adresse de courrier éclectronique</label>
+            <input type="email" id="mail" value="nom@fournisseur domaine">
+
+            <label for="comment">Tapez ici votre commentaire</label>
+            <textarea id="comment" placeholder="votre commentaire"></textarea>
+    </form>
+</section>
+
+
+</body>
+</html>
