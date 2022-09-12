@@ -84,12 +84,44 @@ aside{
     left: 40%;
 }
 
+
 /*EXO8*/
 #exo8{
     width: 35%;
     background-color: blue;
+    padding: 8px;
 }
+
+#exo8 ul{
+    background-color: orange;
+    padding: 0;
+}
+
+#exo8 li{
+    display: inline-block;
+    margin-left: 3rem;
+}
+
+#exo8 div{
+    height: 10rem;
+}
+
 
 #exo8 p{
     background-color: white;
+    padding: 8px;
+}
+
+
+/*EXO9*/
+#exo9 img{
+    display: none;
+}
+
+#exo9 a:link img{
+    display: inline;
+}
+
+#exo9 img:hover{
+    scale: 1.5;
 }
