@@ -1,0 +1,60 @@
+*{box-sizing: border-box;}
+html{font-size: 62.5%;}
+body{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    color: black;
+}
+img{max-width: 100%;}
+a{text-decoration: none; color: white;}
+ul{padding: 0; list-style: none; margin: 1rem;}
+
+header{
+    background-color: green;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header span{
+    background-color: yellow;
+    margin: 0;
+    color: black;
+    padding: 1.5rem;
+}
+
+nav{
+    background-color: grey;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin-top: 1.5rem;
+}
+
+#about{
+    margin: 0 auto;
+    max-width: 95%
+}
+
+#about article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about ul li{
+    margin-top: 1rem;
+}
+
+#about h2, h3{
+    flex-basis: 100%;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+/*DESKTOP 800px breakpoint*/
