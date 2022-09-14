@@ -84,16 +84,17 @@ nav ul li{
     }
 
     #about{
-        background-color: red;
         display: flex;
         flex-direction: column;;
-        max-width: 25%;
-        margin: 0;
+        max-width: 30%;
+        margin: 1;
     }
 
     #content{
         display: flex;
         flex-direction: column;
+        width: 100%;
+        align-items: center;
     }
 
 }

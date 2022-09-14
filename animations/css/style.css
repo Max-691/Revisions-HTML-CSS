@@ -1,0 +1,32 @@
+#rgb{
+    width: 5rem;
+    height: 5rem;
+    animation-name: rgb;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-bottom: 10rem;
+}
+
+@keyframes rgb {
+    0%{background-color: red; top: 0; left: 200px;}
+    25%{background-color: yellow; top: 200px; left: 0;}
+    50%{background-color: blue; left: 0;}
+    100%{background-color: green; top: 0;}
+}
+
+
+#rotate{
+    width: 5rem;
+    height: 5rem;
+    animation-name: rotate;
+    animation-duration: 3s;
+    background-color: red;
+}
+/*transition 2s couleurs puis rotatin*/
+
+@keyframes rotate {
+   0%{background-color: red;}
+   25%{background-color: yellow;}
+   50%{background-color: blue;}
+   100%{background-color: green;}
+}
