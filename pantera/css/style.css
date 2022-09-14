@@ -60,13 +60,24 @@ h2{
 .i{
     font-style: italic;
 }
-@media screen and(max-width: 800px){
+
+@media screen and (max-width:800px){
+    body{
+        background-color: rgba(128, 128, 128, 0.342);
+    }
+    
     h1{
         padding: 2rem;
-        box-shadow: 5px 5px 15px 5px #000000;
-        background-color: red;
+        box-shadow: 5px 5px 15px 5px #00000061;
+        background-color: white;
     }
-    body{
-        background-color: yellow;
+
+    nav ul{
+        padding: 0;
     }
+
+    nav ul a{
+        background-color: ;
+    }
+  
 }

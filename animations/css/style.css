@@ -1,32 +1,31 @@
 #rgb{
     width: 5rem;
     height: 5rem;
-    animation-name: rgb;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    margin-bottom: 10rem;
+    animation: rgb 4s infinite;
+    position: relative;
+    margin-bottom: 15rem;
 }
 
 @keyframes rgb {
-    0%{background-color: red; top: 0; left: 200px;}
-    25%{background-color: yellow; top: 200px; left: 0;}
-    50%{background-color: blue; left: 0;}
-    100%{background-color: green; top: 0;}
+    0%{background-color: red; top: 0; left: 0rem;}
+    25%{background-color: yellow; top: 0; left: 15rem;}
+    50%{background-color: blue; top: 15rem; left: 15rem;}
+    75%{background-color: green; top: 15rem; left: 0;}
+    100%{background-color: red; top: 0; left: 0;}
 }
-
 
 #rotate{
     width: 5rem;
     height: 5rem;
-    animation-name: rotate;
-    animation-duration: 3s;
     background-color: red;
+    transform: rotate(90deg);
+    transition: background 2s transform;
 }
-/*transition 2s couleurs puis rotatin*/
 
-@keyframes rotate {
-   0%{background-color: red;}
-   25%{background-color: yellow;}
-   50%{background-color: blue;}
-   100%{background-color: green;}
+#rotate:hover{
+    transform: rotate(180deg);
+    background-color: blue;
+    transition: background 2s transform;
 }
+
+
