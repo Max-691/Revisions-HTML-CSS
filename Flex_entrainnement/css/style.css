@@ -57,4 +57,43 @@ nav ul li{
     margin-bottom: 0;
 }
 
+#content{
+    display: none;
+}
+
 /*DESKTOP 800px breakpoint*/
+
+@media screen and (min-width: 800px) {
+    header span{
+        text-align: center;
+        width: 100%;
+    }
+    nav{
+        display: block;
+    }
+    nav ul{
+        display: flex;
+        padding: 1rem;
+    }
+    nav ul li{
+        margin: 0 0 0 2rem;
+    }
+
+    main{
+        display: flex;
+    }
+
+    #about{
+        background-color: red;
+        display: flex;
+        flex-direction: column;;
+        max-width: 25%;
+        margin: 0;
+    }
+
+    #content{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
