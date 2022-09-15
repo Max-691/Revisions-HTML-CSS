@@ -1,0 +1,30 @@
+header{
+   display: flex;
+}
+
+@blue: blue;
+@red: red;
+@green: green;
+@yellow: yellow;
+
+@clairgreen: #d0e54c;
+
+#plain, #empty{
+    width: 8rem;
+    height: 5rem;
+    border: solid 0.8rem @clairgreen - #222;
+}
+
+#plain{
+    background-color: @clairgreen;
+    margin-right: 2rem;
+}
+
+#empty{
+    background-color: lighten(hsl(68, 75%, 60%), 30%);
+}
+
+ul{
+    list-style-type: disc;
+    
+}

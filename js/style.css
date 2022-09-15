@@ -1,0 +1,11 @@
+#bg {
+    background-image: url("image1.jfif"), url("image2.jfif");
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    }
+
+#multiple{
+    column-gap: 150px;
+    text-align: justify;
+    column-width: 15em;
+}
