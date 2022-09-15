@@ -44,6 +44,7 @@ img{max-width: 100%;}
 
 article{
     width: 70%;
+
 }
 
 .img{
@@ -54,11 +55,15 @@ article{
 
 h2{
     border-bottom: dashed 1px black;
-    flex-basis: 100%;
+    width: 100%;
 }
 
 .i{
     font-style: italic;
+}
+
+h2 a{
+    color: black;
 }
 
 @media screen and (max-width:800px){
@@ -74,10 +79,56 @@ h2{
 
     nav ul{
         padding: 0;
+        background: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
     }
 
-    nav ul a{
-        background-color: ;
+    nav ul li{
+        background-color: grey;
+        padding: 5px;
+        margin-left: 10rem;
     }
-  
+
+    #head p{
+        max-width: 90%;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .img{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 450px){
+    nav{
+        display: none;
+    }
+
+    #head p:nth-of-type(2), #head p:nth-of-type(3){
+        display: none;
+    }
+    
+    #more{
+        background: rgba(128, 128, 128, 0.403);
+        border: none;
+        padding: 2px 30px;
+        color: white;
+    }
+
+    #more:focus + #morep{
+        display: block;
+    }
+
+    article{
+        display: none;
+    }
+
+    h2:focus + article{
+        display: block;
+    }
+   
 }
