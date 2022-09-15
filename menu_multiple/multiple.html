@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="fr-FR">
+<head>
+	<meta charset="UTF-8">
+	<title>Menu multiple</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a href="simple.html">Menu déroulant simple</a> | <a href="multiple.html">Menu déroulant multiple</a>
+<h1>Menu déroulant mutiple</h1>
+<!-- un menu est une liste de lien, un menu déroulant des listes imbriquées -->
+<!-- le menu est isolé dans un div afin de pouvoir le manipuler en css -->
+	<div id="mainMenu">
+	<!-- menu déroulant mutiple : chaque ul possède une classe -->
+		<ul class="menu-niv1">
+			<li><a href="#">Item1</a></li>
+			<li><a href="#">Item2 ></a>
+				<ul class="menu-niv2">
+					<li><a href="#">Item21</a></li>
+					<li><a href="#">Item22 ></a>
+						<ul class="menu-niv2">
+							<li><a href="#">Item221</a></li>
+							<li><a href="#">Item222</a></li>
+							<li><a href="#">Item223</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="#">Item3</a></li>
+			<li><a href="#">Item4 ></a>
+				<ul class="menu-niv2">
+					<li><a href="#">Item41</a></li>
+					<li><a href="#">Item42 ></a>
+						<ul class="menu-niv2">
+							<li><a href="#">Item421</a></li>
+							<li><a href="#">Item422 ></a>
+								<ul class="menu-niv2">
+									<li><a href="#">Item4221</a></li>
+									<li><a href="#">Item4222</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Item423</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Item43</a></li>
+					<li><a href="#">Item44</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<p>Un paragraphe de très bon texte !</p>
+</body>
+</html>

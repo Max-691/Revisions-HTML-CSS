@@ -1,0 +1,25 @@
+/*Premiers liens 1.2.3.4*/
+a{text-decoration: none; color-scheme: black;}
+.menu-niv1{    
+    display: flex;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.menu-niv1 li{
+    margin-left: 3rem;
+}
+
+.menu-niv1 li a:hover + .menu-niv2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Sous menus*/
+.menu-niv2{
+    display: none;
+}
+
+
